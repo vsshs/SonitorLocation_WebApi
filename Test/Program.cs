@@ -13,6 +13,7 @@ namespace Test
         {
             var tracker = new LocationTracker("10.6.6.124");
             tracker.DataReceived += tracker_DataReceived;
+            
             tracker.Start();
 
             while (true) ;
